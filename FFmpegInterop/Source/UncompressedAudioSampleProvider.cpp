@@ -130,3 +130,4 @@ HRESULT UncompressedAudioSampleProvider::DecodeAVPacket(DataWriter^ dataWriter, 
 
 	return hr;
 }
+

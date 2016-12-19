@@ -1,11 +1,7 @@
-﻿  pch.cpp
-  FFmpegInteropMSS.cpp
-  FFmpegReader.cpp
-  H264AVCSampleProvider.cpp
-  H264SampleProvider.cpp
-  MediaSampleProvider.cpp
-  UncompressedAudioSampleProvider.cpp
-  UncompressedVideoSampleProvider.cpp
-     Creating library C:\Users\Brown GFX\Desktop\FFmpegInterop\x64\Debug\FFmpegInterop\FFmpegInterop.lib and object C:\Users\Brown GFX\Desktop\FFmpegInterop\x64\Debug\FFmpegInterop\FFmpegInterop.exp
-  FFmpegInterop.vcxproj -> C:\Users\Brown GFX\Desktop\FFmpegInterop\x64\Debug\FFmpegInterop\FFmpegInterop.dll
-  FFmpegInterop.vcxproj -> C:\Users\Brown GFX\Desktop\FFmpegInterop\x64\Debug\FFmpegInterop\FFmpegInterop.pdb (Partial PDB)
+﻿  UncompressedVideoSampleProvider.cpp
+c:\users\graphics_lab\desktop\harsh\ffmpeginterop\ffmpeginterop\source\uncompressedvideosampleprovider.cpp(113): warning C4473: 'sprintf_s' : not enough arguments passed for format string
+  c:\users\graphics_lab\desktop\harsh\ffmpeginterop\ffmpeginterop\source\uncompressedvideosampleprovider.cpp(113): note: placeholders and their parameters expect 1 variadic arguments, but 0 were provided
+  c:\users\graphics_lab\desktop\harsh\ffmpeginterop\ffmpeginterop\source\uncompressedvideosampleprovider.cpp(113): note: the missing variadic argument 1 is required by format string '%d'
+c:\users\graphics_lab\desktop\harsh\ffmpeginterop\ffmpeginterop\source\uncompressedvideosampleprovider.cpp(209): warning C4312: 'type cast': conversion from 'errno_t' to 'FILE *' of greater size
+  FFmpegInterop.vcxproj -> C:\Users\graphics_lab\Desktop\Harsh\FFmpegInterop\x64\Debug\FFmpegInterop\FFmpegInterop.dll
+  FFmpegInterop.vcxproj -> C:\Users\graphics_lab\Desktop\Harsh\FFmpegInterop\x64\Debug\FFmpegInterop\FFmpegInterop.pdb (Partial PDB)

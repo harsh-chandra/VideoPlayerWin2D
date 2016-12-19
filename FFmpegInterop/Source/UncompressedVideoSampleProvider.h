@@ -18,6 +18,7 @@
 
 #pragma once
 #include "MediaSampleProvider.h"
+#define OUTPUT_FILE_PREFIX "c:\\temp\\image%d.bmp"
 
 extern "C"
 {
@@ -31,6 +32,7 @@ namespace FFmpegInterop
 	{
 	public:
 		virtual ~UncompressedVideoSampleProvider();
+
 
 	internal:
 		UncompressedVideoSampleProvider(
@@ -46,6 +48,17 @@ namespace FFmpegInterop
 		SwsContext* m_pSwsCtx;
 		int m_rgVideoBufferLineSize[4];
 		uint8_t* m_rgVideoBufferData[4];
+		AVFrame* GetRGBAFrame(AVFrame *pFrameYuv);
+		bool BMPSave(const char * pFileName, AVFrame * frame, int w, int h);
+		AVFrame * GetNextFrame(AVFrame *frameYUV);
 	};
+
+	typedef struct tagBITMAPFILEHEADER {
+		WORD    bfType;
+		DWORD   bfSize;
+		WORD    bfReserved1;
+		WORD    bfReserved2;
+		DWORD   bfOffBits;
+	} BITMAPFILEHEADER, FAR *LPBITMAPFILEHEADER, *PBITMAPFILEHEADER;
 }
 
