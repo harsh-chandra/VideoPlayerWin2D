@@ -1,0 +1,6 @@
+﻿  FFmpegInteropMSS.cpp
+  UncompressedAudioSampleProvider.cpp
+  UncompressedVideoSampleProvider.cpp
+     Creating library C:\Users\Brown GFX\Documents\FFmpegInterop\x64\Debug\FFmpegInterop\FFmpegInterop.lib and object C:\Users\Brown GFX\Documents\FFmpegInterop\x64\Debug\FFmpegInterop\FFmpegInterop.exp
+  FFmpegInterop.vcxproj -> C:\Users\Brown GFX\Documents\FFmpegInterop\x64\Debug\FFmpegInterop\FFmpegInterop.dll
+  FFmpegInterop.vcxproj -> C:\Users\Brown GFX\Documents\FFmpegInterop\x64\Debug\FFmpegInterop\FFmpegInterop.pdb (Partial PDB)

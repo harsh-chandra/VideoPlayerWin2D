@@ -1,0 +1,14 @@
+prefix=../../../Build/Windows10/x64
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libavformat
+Description: FFmpeg container format library
+Version: 57.57.100
+Requires: 
+Requires.private: libavcodec >= 57.65.100, libswresample >= 2.4.100, libavutil >= 55.35.100
+Conflicts:
+Libs: -L${libdir}  -lavformat 
+Libs.private: ws2_32.lib psapi.lib
+Cflags: -I${includedir}

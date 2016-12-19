@@ -1,0 +1,2 @@
+C:\Users\Brown GFX\Desktop\FFmpegInterop\FFmpegInterop\Win10\FFmpegInterop\FFmpegInterop.vcxproj;x64
+C:\Users\Brown GFX\Desktop\FFmpegInterop\Samples\SamplesWin10\MediaPlayerCS\MediaPlayerCS.csproj;x64
